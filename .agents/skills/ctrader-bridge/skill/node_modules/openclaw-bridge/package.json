@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-bridge",
+  "version": "1.0.0",
+  "description": "OpenClaw ZMQ Bridge Client for AI Agent Bridge cBot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "OpenClaw",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "^6.3.0",
+    "uuid": "^9.0.0"
+  }
+}

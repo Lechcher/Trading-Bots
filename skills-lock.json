@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "skills": {
+    "alert-system": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "80e003695cc4c2491fc0e07b7279e679d973fced37a41fee29ad46d01bb7f44c"
+    },
+    "arbitrage-finder": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "2dd9b6eba792f6d736a5f56fd23ffe54bb99f98d7b6baf41a133db0e44a3b088"
+    },
+    "article-extractor": {
+      "source": "tmaru-eng/strategy-bricks",
+      "sourceType": "github",
+      "computedHash": "961160c342eeb62ba0f585782f5518ee284a65958e1acb03ae128d3f78b7a69c"
+    },
+    "auto-trader": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "131cf9da0906793f46b1ea77821e6bd823addbc7ba1f38e1f8100c7a62206f47"
+    },
+    "backtester": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "994a378c062b1d1363bbd9ef64200d75adb3748aa01d0efad5ae46a0b45af29f"
+    },
+    "binary-options": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "b99bf94619bff9d9a8453cdc6df0c0ff5284525010cf0efda3c16399d8bf789f"
+    },
+    "compliance": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "84d61d9e60c2e66dee37fc3ee2fc1c4276ac39d0693950b87a41ef1b537b70b5"
+    },
+    "copy-trader": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "5e51ec1cbf2a6c10cb7e3173886529a44479a4017b01eb10f4ad0884364b2a25"
+    },
+    "ctrader-bridge": {
+      "source": "aalfath/OpenClaw-cTrader-Bridge",
+      "sourceType": "github",
+      "computedHash": "d38b5465da3f968f4afdac34b3e04ed84f230876ab1d3e76370664bf30ea658f"
+    },
+    "defi-connector": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "bbc7352b30e2b9a1465668d87d98deaae04c9914b668653fce1f85d03f864637"
+    },
+    "defi-yield": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "7c121e4cde77e753e175f4cd086bdf11346b5f67736c8dd621c85b89760a611a"
+    },
+    "dividend-manager": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "36187262d6eaa731808e41611cd2d2170470e73171dbad9408e3240f40ff82e9"
+    },
+    "etoro-connector": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "dc16966ce154d171f45af8fc46757b2aa3da41979eed7e175038fc576e0b919f"
+    },
+    "exchange-connector": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "869ed625e6e2a0697e488074d7859e46371af6c94cfab34dc9547b1b6ed3b227"
+    },
+    "market-analysis": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "9ddd3144bef48d19d4ab52a9e97dd35feede003307f12ab44e72f62ced26a17b"
+    },
+    "mql-developer": {
+      "source": "NeverSight/learn-skills.dev",
+      "sourceType": "github",
+      "computedHash": "9ae5ecf3404597a8b93ed0a311e0f3cb5e84a36b57f9548c4f35e6bde57927a3"
+    },
+    "mql5-docs-research": {
+      "source": "tmaru-eng/strategy-bricks",
+      "sourceType": "github",
+      "computedHash": "30cc07f0ffd4576eb59988cd4311cbcab18cc10dd449e36945daf3b8529e0f88"
+    },
+    "mql5-indicator-patterns": {
+      "source": "terrylica/cc-skills",
+      "sourceType": "github",
+      "computedHash": "fe229d8e72930b39ae98c4c91048c5e1c45b3ddcc3b82aa7ddf624d0ad53cae4"
+    },
+    "mql5-x-compile": {
+      "source": "tmaru-eng/strategy-bricks",
+      "sourceType": "github",
+      "computedHash": "2394dd5a36d232238cb1ca7d3f6c3406527948fa282de598e330b35da7c3c183"
+    },
+    "mt5-log-reader": {
+      "source": "NeverSight/learn-skills.dev",
+      "sourceType": "github",
+      "computedHash": "1e7112c054b8ab308ea74b44316445db79e8c16da10384d6205aaa015ba21414"
+    },
+    "multi-asset": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "677da818ffe5b330bd76e7529b91b8fa5062c914eb7060be7b31cc5d1c5cc96c"
+    },
+    "news-tracker": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "71388ab2b5916a722242814ef676e4501182ea35bb2c5ab1474cba15f0a70a48"
+    },
+    "options-trader": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "225c9bbd43745f21929c0559f7f4a3b00fdeb07bd469bbb94c1bedc05be58084"
+    },
+    "performance-report": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "47db31452f27ce78e6a746bec43af2049696e741ef930c685ec4fa47fd3d657c"
+    },
+    "pine-backtester": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "c9960a5133081d003600713ac62ab437029c29cc5ab99114ada7a8f32d53639c"
+    },
+    "pine-debugger": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "3cfdce66537d16b5a3940f247d592eb4eabd1b46498d00619fc5e7ced5a99644"
+    },
+    "pine-developer": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "ab06abab1c06c473285ac40e4c6e06e3cdf5cef24e71b47979cc6c9712a5ea8b"
+    },
+    "pine-manager": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "eb12269740bea34b39059363feafc6de8cf2ed9b8034504e2cf2adf672ee22b5"
+    },
+    "pine-optimizer": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "89b39809a432051d7678c98f3f2835c0b9006f5dab6f24b724585854460b9e52"
+    },
+    "pine-publisher": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "9be8d5b2a5bd1feecbf52a434402b5c54203be39e7f838574cc5c9044c0a7d96"
+    },
+    "pine-visualizer": {
+      "source": "TradersPost/pinescript-agents",
+      "sourceType": "github",
+      "computedHash": "06c6d5f0247738d6bec993e29a104642ad1ec2520a9b8ea21e8ec24dc6d7bfca"
+    },
+    "platform-integration": {
+      "source": "Ryko1141/Agentic-Hedge-Edge",
+      "sourceType": "github",
+      "computedHash": "e3109fba7c6978772e79e8edd42362e1ce3377a5a2204d9a9a5def643a593980"
+    },
+    "portfolio-tracker": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "f42f4c21000c4c5c92f3d4938c1b809a3add3a7899bc35da2b6178f2ad944b26"
+    },
+    "prop-firm-market-research": {
+      "source": "Ryko1141/Agentic-Hedge-Edge",
+      "sourceType": "github",
+      "computedHash": "a6a8a22c03a9af94a09671092321372cbf19e11a88278980530900be81d54eb4"
+    },
+    "rebalancer": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "337c8f4c0df86d1b7386b02bb165408bc85b02a10a93e28138a14f0a38483257"
+    },
+    "resolve-ai-pr-reviews": {
+      "source": "tmaru-eng/strategy-bricks",
+      "sourceType": "github",
+      "computedHash": "6437d535db4236c1c5a9d67902d7dcaf4b04d53e095928514c3e919d7aa0d8a2"
+    },
+    "risk-ai": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "fd180cebce07c88d2dd8d79e2865691b4fe82127c0cbae4512747584e79349f7"
+    },
+    "risk-calculator": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "3c494f71129a7da171c958d8800628eddca4523910f63aebb0ffffcd3b2b0ca4"
+    },
+    "smart-order-router": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "40d1fdbd9e71794003a784c3b429f89c4c416eeab593dd8c7afa61572f6007f5"
+    },
+    "social-trading": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "40e9e858efbc855482b050f0037f9afd7242492bce60748d9154407bba73144b"
+    },
+    "stock-trader": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "45b24354a820efbffd60dfba58acb16b37e8ec6fe26f048c72c7ebf295cd9c35"
+    },
+    "task-scheduler": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "7dfc376faa53ec1d82fa9a268b8ad2d3585636baa87b256dadbb4f18f8afcacc"
+    },
+    "tax-calculator": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "5b73ffd7c68c71843873adcc167c5b2b67dd9013738b0a26b8d4e1a9bb80a611"
+    },
+    "tax-tracker": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "ca4391e04f28fce3e68ab7e6626ea5b900207859ccec781e6dd13e668d641617"
+    },
+    "trading-analyzer": {
+      "source": "openclaw/skills",
+      "sourceType": "github",
+      "computedHash": "fb707c3d9f4dcb579c494dd094bf9f55faf58274bd30accf37f6c46aac70735b"
+    },
+    "tradingview-script": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "d1ad74b7bf277702c8294095cd13d4dd9181efb0b82edafc1c3e44c04eed6820"
+    },
+    "twitter-posting": {
+      "source": "kayzaa/k.i.t.-bot",
+      "sourceType": "github",
+      "computedHash": "129cca77706e37f1959cd285f5aa4bbea0ce283ca547b464ea095267daa80254"
+    }
+  }
+}

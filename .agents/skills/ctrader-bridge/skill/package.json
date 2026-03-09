@@ -1,0 +1,16 @@
+{
+  "name": "openclaw-skill",
+  "version": "1.0.0",
+  "description": "OpenClaw AI Trading Agent with thesis management and fundamental checking",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "author": "OpenClaw",
+  "license": "ISC",
+  "dependencies": {
+    "openclaw-bridge": "file:../bridge",
+    "node-fetch": "^2.7.0"
+  }
+}

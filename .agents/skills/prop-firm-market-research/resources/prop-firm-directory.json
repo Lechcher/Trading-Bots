@@ -1,0 +1,151 @@
+{
+  "last_updated": "2026-02-15",
+  "notes": "Update quarterly. Commission rates and platform support change frequently.",
+  "firms": [
+    {
+      "name": "FTMO",
+      "website": "ftmo.com",
+      "min_challenge_fee": 155,
+      "max_challenge_fee": 1080,
+      "popular_account_sizes": ["$10K", "$25K", "$50K", "$100K", "$200K"],
+      "payout_split": "80/20 → 90/10",
+      "platforms": ["MT4", "MT5", "cTrader", "DXtrade"],
+      "hedging_policy": "restricted",
+      "estimated_active_traders": 100000,
+      "region_focus": "Global",
+      "notes": "Largest prop firm. Anti-hedging detection in place."
+    },
+    {
+      "name": "The5%ers",
+      "website": "the5ers.com",
+      "min_challenge_fee": 39,
+      "max_challenge_fee": 850,
+      "popular_account_sizes": ["$6K", "$20K", "$60K", "$100K"],
+      "payout_split": "80/20 → 100/0",
+      "platforms": ["MT5"],
+      "hedging_policy": "allowed_with_conditions",
+      "estimated_active_traders": 30000,
+      "region_focus": "Global",
+      "notes": "Progressive scaling plan. Lenient on hedging."
+    },
+    {
+      "name": "TopStep",
+      "website": "topstep.com",
+      "min_challenge_fee": 49,
+      "max_challenge_fee": 299,
+      "popular_account_sizes": ["$50K", "$100K", "$150K"],
+      "payout_split": "90/10 → 100/0",
+      "platforms": ["Rithmic", "Tradovate"],
+      "hedging_policy": "different_market",
+      "estimated_active_traders": 80000,
+      "region_focus": "US, Global",
+      "notes": "Futures-focused. Different platform ecosystem."
+    },
+    {
+      "name": "Apex Trader Funding",
+      "website": "apextraderfunding.com",
+      "min_challenge_fee": 25,
+      "max_challenge_fee": 517,
+      "popular_account_sizes": ["$25K", "$50K", "$100K", "$250K", "$300K"],
+      "payout_split": "100/0",
+      "platforms": ["Rithmic", "Tradovate", "NinjaTrader"],
+      "hedging_policy": "allowed",
+      "estimated_active_traders": 60000,
+      "region_focus": "US, Global",
+      "notes": "Futures. Aggressive pricing. Frequent promos."
+    },
+    {
+      "name": "MyForexFunds",
+      "website": "myforexfunds.com",
+      "min_challenge_fee": 49,
+      "max_challenge_fee": 499,
+      "popular_account_sizes": ["$5K", "$10K", "$20K", "$50K", "$100K"],
+      "payout_split": "75/25 → 85/15",
+      "platforms": ["MT4", "MT5"],
+      "hedging_policy": "restricted",
+      "estimated_active_traders": 25000,
+      "region_focus": "Global",
+      "notes": "Previously shut down by CFTC. Back with new structure."
+    },
+    {
+      "name": "FundedNext",
+      "website": "fundednext.com",
+      "min_challenge_fee": 32,
+      "max_challenge_fee": 549,
+      "popular_account_sizes": ["$6K", "$15K", "$25K", "$50K", "$100K", "$200K"],
+      "payout_split": "80/20 → 90/10",
+      "platforms": ["MT4", "MT5", "cTrader"],
+      "hedging_policy": "restricted",
+      "estimated_active_traders": 40000,
+      "region_focus": "Global, SEA strong",
+      "notes": "Fast growing. Popular in Southeast Asia."
+    },
+    {
+      "name": "Funded Trading Plus",
+      "website": "fundedtradingplus.com",
+      "min_challenge_fee": 119,
+      "max_challenge_fee": 949,
+      "popular_account_sizes": ["$12.5K", "$25K", "$50K", "$100K", "$200K"],
+      "payout_split": "80/20 → 90/10",
+      "platforms": ["MT4", "MT5", "cTrader", "Match-Trader"],
+      "hedging_policy": "allowed",
+      "estimated_active_traders": 15000,
+      "region_focus": "Europe, Global",
+      "notes": "FTP is hedge-friendly. Good partnership target."
+    },
+    {
+      "name": "E8 Funding",
+      "website": "e8funding.com",
+      "min_challenge_fee": 48,
+      "max_challenge_fee": 588,
+      "popular_account_sizes": ["$25K", "$50K", "$100K", "$250K"],
+      "payout_split": "80/20",
+      "platforms": ["MT5", "Match-Trader"],
+      "hedging_policy": "restricted",
+      "estimated_active_traders": 20000,
+      "region_focus": "Global",
+      "notes": "Moving to Match-Trader. Platform diversification signal."
+    },
+    {
+      "name": "True Forex Funds",
+      "website": "trueforexfunds.com",
+      "min_challenge_fee": 49,
+      "max_challenge_fee": 549,
+      "popular_account_sizes": ["$10K", "$25K", "$50K", "$100K", "$200K"],
+      "payout_split": "80/20",
+      "platforms": ["MT4", "MT5"],
+      "hedging_policy": "restricted",
+      "estimated_active_traders": 10000,
+      "region_focus": "Global",
+      "notes": "Mid-tier firm. Standard offering."
+    },
+    {
+      "name": "Lux Trading Firm",
+      "website": "luxtradingfirm.com",
+      "min_challenge_fee": 149,
+      "max_challenge_fee": 499,
+      "popular_account_sizes": ["$25K", "$50K", "$100K", "$150K"],
+      "payout_split": "75/25",
+      "platforms": ["MT4", "MT5"],
+      "hedging_policy": "allowed_with_conditions",
+      "estimated_active_traders": 8000,
+      "region_focus": "Europe",
+      "notes": "Premium positioning. Higher fees, stricter rules."
+    }
+  ],
+  "market_summary": {
+    "estimated_total_active_traders": 500000,
+    "estimated_annual_challenge_fee_market_usd": 8000000000,
+    "avg_failure_rate_phase1": 0.85,
+    "avg_failure_rate_overall": 0.92,
+    "fastest_growing_regions": ["Southeast Asia", "Middle East", "Africa"],
+    "platform_market_share": {
+      "MT5": 0.40,
+      "MT4": 0.25,
+      "cTrader": 0.10,
+      "DXtrade": 0.08,
+      "Match-Trader": 0.07,
+      "Rithmic/Tradovate": 0.10
+    }
+  }
+}
