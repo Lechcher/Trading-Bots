@@ -4,8 +4,9 @@
 //+------------------------------------------------------------------+
 #property copyright "Just Write!"
 #property link      "https://github.com/Lechcher"
-#property version   "1.07"
+#property version   "1.08"
 #property strict
+#property icon      "super-gold-breakout-icon.ico"
 
 #include <Trade\Trade.mqh>
 #include <Trade\SymbolInfo.mqh>
