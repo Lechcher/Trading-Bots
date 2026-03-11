@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
-//|                                             GoldBreakoutEA.mq5   |
-//|                                             Just Write!          |
+//|                                              GoldBreakoutEA.mq5  |
+//|                                              Just Write!         |
 //+------------------------------------------------------------------+
 #property copyright "Just Write!"
 #property link      "https://github.com/Lechcher"
-#property version   "1.08"
+#property version   "1.09"
 #property strict
 #property icon      "super-gold-breakout-icon.ico"
 
@@ -29,7 +29,7 @@ sinput string                 Section1 = "--- Trade & Risk Management ---";
 input bool                    Restrict_To_Gold   = false;             // Restrict EA to Gold Only
 input ENUM_LOT_MODE           Lot_Size_Mode      = Risk_Percent;     // Lot Size Mode
 input double                  Lots               = 0.01;              // Fixed Lots
-input double                  RiskPercent        = 0.1;              // Risk % of Free Margin
+input double                  RiskPercent        = 0.1;              // Risk % of Balance
 input int                     Max_Spread_Points  = 50;               // Maximum Allowed Spread (Points)
 input ulong                   Magic              = 111;              // Magic Number
 
@@ -387,8 +387,9 @@ double GetLotSize(double sl_dist_price)
 {
    if(Lot_Size_Mode == Fixed_Lots) return Lots;
 
-   double free_margin = AccountInfoDouble(ACCOUNT_MARGIN_FREE);
-   double risk_money = free_margin * (RiskPercent / 100.0);
+   // CHANGED FROM FREE MARGIN TO BALANCE
+   double balance = AccountInfoDouble(ACCOUNT_BALANCE);
+   double risk_money = balance * (RiskPercent / 100.0);
    
    double tick_value = SymbolInfoDouble(_Symbol, SYMBOL_TRADE_TICK_VALUE);
    double tick_size  = SymbolInfoDouble(_Symbol, SYMBOL_TRADE_TICK_SIZE);
