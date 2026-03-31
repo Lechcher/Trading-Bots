@@ -1,0 +1,4 @@
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/publish/Super Gold Breakout cBot version.dll
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/publish/Super Gold Breakout cBot version.deps.json
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/publish/Super Gold Breakout cBot version.pdb
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/publish/cAlgo.API.dll

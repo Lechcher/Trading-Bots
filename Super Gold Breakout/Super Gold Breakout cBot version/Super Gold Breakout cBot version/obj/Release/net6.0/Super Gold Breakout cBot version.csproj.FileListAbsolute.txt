@@ -1,0 +1,15 @@
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.csproj.AssemblyReference.cache
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.AssemblyInfoInputs.cache
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.AssemblyInfo.cs
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.csproj.CoreCompileInputs.cache
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/Super Gold Breakout cBot version.deps.json
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/Super Gold Breakout cBot version.dll
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/bin/Release/net6.0/Super Gold Breakout cBot version.pdb
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.dll
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/refint/Super Gold Breakout cBot version.dll
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/Super Gold Breakout cBot version.pdb
+/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/obj/Release/net6.0/ref/Super Gold Breakout cBot version.dll
+/var/folders/vb/gxwtkm593vvf7b55h8z7kzdw0000gn/T/g4fsev1r.x2j/Super Gold Breakout cBot version.deps.json
+/var/folders/vb/gxwtkm593vvf7b55h8z7kzdw0000gn/T/g4fsev1r.x2j/Super Gold Breakout cBot version.dll
+/var/folders/vb/gxwtkm593vvf7b55h8z7kzdw0000gn/T/g4fsev1r.x2j/Super Gold Breakout cBot version.pdb

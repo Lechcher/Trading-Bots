@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2yb8Dy6BMsE=",
+  "success": true,
+  "projectFilePath": "/Users/liberian/cAlgo/Sources/Robots/Super Gold Breakout cBot version/Super Gold Breakout cBot version/Super Gold Breakout cBot version.csproj",
+  "expectedPackageFiles": [
+    "/Users/liberian/.nuget/packages/ctrader.automate/1.0.16/ctrader.automate.1.0.16.nupkg.sha512",
+    "/Users/liberian/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/liberian/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

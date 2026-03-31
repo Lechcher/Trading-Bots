@@ -4,7 +4,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Just Write!"
 #property link      "https://github.com/Lechcher"
-#property version   "1.09"
+#property version   "1.12"
 #property strict
 #property icon      "super-gold-breakout-icon.ico"
 
@@ -46,12 +46,12 @@ input int                     Trend_MA_Period    = 50;               // Trend MA
 input ENUM_MA_METHOD          Trend_MA_Method    = MODE_EMA;         // Trend MA Method
 
 sinput string                 Section4 = "--- TP & SL Calculation Mode ---";
-input ENUM_TPSL_MODE          TPSL_Mode          = Fixed_Points;     // TP/SL Mode
+input ENUM_TPSL_MODE          TPSL_Mode          = ATR_Dynamic;     // TP/SL Mode
 input int                     TpPoints           = 1000;             // Fixed TP (Points)
 input int                     SlPoints           = 300;              // Fixed SL (Points)
 input int                     ATR_Period         = 14;               // ATR Period
-input double                  ATR_TP_Multiplier  = 6.0;              // ATR Multiplier for TP
-input double                  ATR_SL_Multiplier  = 2.0;              // ATR Multiplier for SL
+input double                  ATR_TP_Multiplier  = 3;              // ATR Multiplier for TP
+input double                  ATR_SL_Multiplier  = 0.5;              // ATR Multiplier for SL
 
 sinput string                 Section5 = "--- Trailing Stop Settings ---";
 input int                     TslTriggerPoints   = 150;              // TSL Activation Profit (Points)
@@ -442,17 +442,20 @@ void ManageTrailingStop()
          // Refresh rates per position to guarantee absolute precision during fast breakouts
          symInfo.RefreshRates();
          
-         // Factor in Stops Level, Freeze Level, AND Spread dynamically
+         // Factor in Stops Level, Freeze Level exclusively
          long stops_level = SymbolInfoInteger(_Symbol, SYMBOL_TRADE_STOPS_LEVEL);
          long freeze_level = SymbolInfoInteger(_Symbol, SYMBOL_TRADE_FREEZE_LEVEL);
          long spread = SymbolInfoInteger(_Symbol, SYMBOL_SPREAD);
          
-         double min_stop_level = (double)MathMax(MathMax(stops_level, freeze_level), spread * 1.5) * _Point;
-         if(min_stop_level == 0) min_stop_level = 5 * p_adj * _Point; // Safety fallback
-         min_stop_level += 5 * p_adj * _Point; // Extra 5-point thick cushion
+         double min_stop_level = (double)MathMax(stops_level, freeze_level) * _Point;
+         if(min_stop_level == 0) min_stop_level = (spread * 0.5) * _Point; // Reasonable fallback for modern 0-level brokers
+         min_stop_level += 2 * p_adj * _Point; // Very thin 2-point edge cushion
+         
+         // Ensure trailing distance isn't suppressed by broker restrictions
+         double actual_tsl_dist = MathMax(tsl_dist_price, min_stop_level + 2 * p_adj * _Point);
          
          // Prevent SL from crashing into TP. Must respect the widest of TslPoints or Broker Minimums.
-         double min_dist_to_tp = MathMax(tsl_dist_price, min_stop_level);
+         double min_dist_to_tp = MathMax(actual_tsl_dist, min_stop_level);
          
          double open_price = PositionGetDouble(POSITION_PRICE_OPEN);
          double sl = PositionGetDouble(POSITION_SL);
@@ -467,7 +470,7 @@ void ManageTrailingStop()
             
             if(symInfo.Bid() - open_price >= tsl_trigger_price)
             {
-               double new_sl = symInfo.Bid() - tsl_dist_price;
+               double new_sl = symInfo.Bid() - actual_tsl_dist;
                new_sl = MathRound(new_sl / tick_size) * tick_size;
                
                // 1. Move SL significantly closer. 2. Outside freeze/stop levels from Bid.
@@ -489,7 +492,7 @@ void ManageTrailingStop()
             
             if(open_price - symInfo.Ask() >= tsl_trigger_price)
             {
-               double new_sl = symInfo.Ask() + tsl_dist_price;
+               double new_sl = symInfo.Ask() + actual_tsl_dist;
                new_sl = MathRound(new_sl / tick_size) * tick_size;
                
                // 1. Move SL significantly closer. 2. Outside freeze/stop levels from Ask.

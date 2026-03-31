@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Super Gold Breakout cBot version/1.0.0": {
+        "dependencies": {
+          "cTrader.Automate": "1.0.16"
+        },
+        "runtime": {
+          "Super Gold Breakout cBot version.dll": {}
+        }
+      },
+      "cTrader.Automate/1.0.16": {
+        "runtime": {
+          "lib/net6.0/cAlgo.API.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Super Gold Breakout cBot version/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cTrader.Automate/1.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h5D+MWtpPdynTNMXZ8pfCb3aJeZ6iXuF3ZaNpUfpQU7qdgHdvstlxxR6ncIptcNmKvxwWTp9MNy0a/XoJwJeDA==",
+      "path": "ctrader.automate/1.0.16",
+      "hashPath": "ctrader.automate.1.0.16.nupkg.sha512"
+    }
+  }
+}
